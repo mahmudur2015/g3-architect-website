@@ -130,12 +130,12 @@ color: #FF900E;
 /* @resonsive media query */
 @media screen and(max-width: 576px) {
   .navbar,
-  .nav-link,
+  .nav-links,
   .teams {
     flex-direction: column;
   }
   .team-img-container{
-    grid-template-columns:repeat(1, 1fr);
+    grid-template-columns: repeat(1,1fr);
   }
   .team-features{
     margin-left: 20px;
